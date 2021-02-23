@@ -1,0 +1,32 @@
+{
+  "name": "rlayers-geojson-vt-server",
+  "version": "1.0.0",
+  "description": "The server part for the rlayers examples",
+  "main": "geojson-vt-server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmomtchev/geojson-vt-server.git"
+  },
+  "author": "Momtchil Momtchev <momtchil@momtchev.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmomtchev/rlayers/issues"
+  },
+  "homepage": "https://mmomtchev.github.io/rlayers/",
+  "dependencies": {
+    "express": "^4.17.1",
+    "geojson-vt": "^3.2.1",
+    "typedarray-to-buffer": "^4.0.0",
+    "vt-pbf": "^3.1.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.1.1",
+    "rollup": "^2.38.5",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
